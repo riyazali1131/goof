@@ -1,3 +1,4 @@
+/** my comment */
 module.exports = {
 
   ran_no : function ( min, max ){
