@@ -23,6 +23,7 @@ module.exports = {
     res.statusCode = 403;
 
     res.setHeader( 'Content-Type', 'text/plain' );
+    // deepcode ignore ContentLengthInCode: <please specify a reason of ignoring this>
     res.setHeader( 'Content-Length', body.length );
     res.end( body );
   }
